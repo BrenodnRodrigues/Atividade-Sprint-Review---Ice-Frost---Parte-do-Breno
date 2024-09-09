@@ -1,0 +1,112 @@
+/*--ESTUDO PARTE 1 - CONTAINER: BLOCK E FLEX--*/
+.flex {
+    display: flex;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    max-height: 2000px;
+    margin: 0 auto;
+    border-style: dotted;
+}
+
+.container1 {
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    max-height: 2000px;
+    margin: 0;
+    border-style: dotted;
+}
+
+.conteudo {
+    text-align: center;
+    background-color: rgb(21, 154, 199);
+    margin: 10px;
+    font-size: 1.5em;
+    border: 5px solid red;
+}
+
+.conteudo1 {
+    text-align: center;
+    background-color: yellow;
+    margin: 25px;
+    font-size: 1.5em;
+    border: 50px solid rgb(18, 18, 102);
+}
+
+/*--ESTUDO PARTE 2 - CONTAINER: BLOCK E FLEX--*/
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.container2 {
+    border-style: dashed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 1000px;
+    max-height: 2000px;
+    margin: 0 auto;
+
+}
+
+.conteudo2 {
+    flex: 1;
+    text-align: center;
+    background-color: rgb(162, 238, 200);
+    margin: 10px;
+    padding: 10PX;
+}
+/*--ESTUDO PARTE 3 - FLEX-WRAP--*/
+.wrap{
+    flex-wrap: wrap;
+}
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+.container3{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: ridge;
+    max-width: 360px;
+    
+}
+.conteudo3{
+    flex: 1;
+    margin: 5px;
+    background: rgb(38, 255, 0);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/*--ESTÉTICA DO CÓDIGO--*/
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+
+}
